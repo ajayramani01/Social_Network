@@ -38,7 +38,7 @@ Brief description of your project.
 1. **Clone the repository**:
     git clone
 
-2. **Make migrations**:
+2. **Make migrations**:   
     python manage.py makemigrations  
     python manage.py migrate
 
