@@ -39,7 +39,7 @@ Brief description of your project.
     git clone
 
 2. **Make migrations**:
-    python manage.py makemigrations
+    python manage.py makemigrations  
     python manage.py migrate
 
 3. Run the server:
