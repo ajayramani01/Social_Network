@@ -19,30 +19,30 @@ Brief description of your project.
   - `PUT /user`: Update user details.
   - `DELETE /user`: Delete user.
 
-- **Discussion Service**:
+- **Discussion Service**:  
   - `POST /discussion`: Create a discussion.
   - `PUT /discussion`: Update a discussion.
   - `DELETE /discussion`: Delete a discussion.
   - `GET /discussion`: Get discussions by tag or text.
 
-- **Comment Service**:
+- **Comment Service**:  
   - `POST /comment`: Add a comment.
   - `PUT /comment`: Update a comment.
   - `DELETE /comment`: Delete a comment.
 
-- **Interaction Service**:
+- **Interaction Service**:  
   - `POST /like/discussion`: Like/unlike a discussion.
   - `POST /like/comment`: Like/unlike a comment.
 
 ## Setup Instructions
-1. **Clone the repository**:
+1. **Clone the repository**:  
     git clone
 
 2. **Make migrations**:   
     python manage.py makemigrations  
     python manage.py migrate
 
-3. Run the server:
+3. Run the server:  
     python manage.py runserver
 
 
